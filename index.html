@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="portafolio.css">
+</head>
+<body>
+    <header>
+    <h1>Bienvenido a mi Portafolio</h1>
+    <script src="portafolio.js"></script>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+
+    <img src="images/profile.png" alt="Foto de perfil">
+
+    <div class="hero-text">
+      <h2>Hola, soy <span>Cristian Bonilla</span></h2>
+
+      <p id="biografia">
+        Estudiante de Ingeniería en Ciencias de la Computación apasionado por crear páginas modernas,
+        dinámicas e interactivas utilizando HTML, CSS y JavaScript.
+        Me gusta desarrollar proyectos creativos con diseños modernos,
+        animaciones y experiencias intuitivas para los usuarios.
+      </p>
+
+      <button class="btn" onclick="mostrarMensaje()">
+        Ver más
+      </button>
+    </div>
+
+  </section>
+
+  <section id="proyectos">
+    <h2 class="title">Mis Proyectos</h2>
+
+    <div class="projects">
+
+      <div class="card">
+        <h3>Sistema para Cafetería</h3>
+        <p>
+          Sistema web para gestión de pedidos, inventario,
+          reservas y facturación para una cafetería.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Diseño de Red Universitaria</h3>
+        <p>
+          Proyecto de infraestructura de red utilizando
+          Cisco Packet Tracer para una universidad.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Tienda Virtual</h3>
+        <p>
+          Desarrollo de e-commerce moderno con carrito
+          de compras y diseño responsivo.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="habilidades">
+    <h2 class="title">Habilidades</h2>
+
+    <div class="skills">
+      <div class="skill">HTML5</div>
+      <div class="skill">CSS3</div>
+      <div class="skill">JavaScript</div>
+      
+      <div class="skill">SQL</div>
+      <div class="skill">Cisco Networking</div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contact">
+    <h2 class="title">Contacto</h2>
+
+    <p> Email: cfub1999@gmail.com</p>
+    <p> Teléfono: +504 87931228</p>
+    <p> Honduras</p>
+
+
+  </section>
+
+  <footer>
+    <p>
+      © 2026 Cristian Bonilla | Portafolio Web
+    </p>
+  </footer>
+
+  <button class="toggle-btn" onclick="modoOscuro()">
+    Tema
+  </button>
+</body>
+</html>
