@@ -1,5 +1,5 @@
  function mostrarMensaje(){
-      alert("Gracias por visitar mi portafolio web 🚀");
+      alert("Gracias por visitar mi portafolio web ¡Espero que te guste!");
     }
  
        function modoOscuro(){
